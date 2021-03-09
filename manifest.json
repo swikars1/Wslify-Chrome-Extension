@@ -2,7 +2,7 @@
   "name": "Wslify",
   "version": "1.0",
   "description": "Modify file:// urls to point to wsl remote path.",
-  "permissions": ["tabs", "activeTab", "http://*/", "https://*/", "file:///*", "file://*", "file://*/*", "declarativeContent", "storage"],
+  "permissions": ["tabs", "activeTab", "http://*/*", "https://*/*", "file:///*", "file://*", "file://*/*", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false

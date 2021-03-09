@@ -1,4 +1,5 @@
 chrome.runtime.onInstalled.addListener(function() {
+
   chrome.storage.sync.set({currentUrl: window.location.href}, function() {
     console.log(window.location.href);
   });
